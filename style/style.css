@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.text-primary {
+    color: #fd6e0a;
+}
+
+.button-primary {
+
+
+    height: 36px;
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    color: #e8e6e4;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0px; 
+    border: 0;
+    padding: 18px 35px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* Header and nav style */
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* ( justify-content: space-between; 2 side a lakha neye gase) */
+    margin: 50px 211px;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 30px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* Banner style */
+
+.banner{
+    margin: 211px;
+    display: flex;
+    align-items: center;
+}
+.tittle{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 20px;
+
+}
+.sub-tittle{
+    font-weight: 700;
+font-size: 85px;
+}
+/* .button-rimary{
+width: 200px;
+height: 64px;
+background: #FD6E0A;
+border: 0;
+border-radius: 5px;
+} */
+.banner-discription{
+    color: #757575;
+    font-size: 18;
+
+}
+
