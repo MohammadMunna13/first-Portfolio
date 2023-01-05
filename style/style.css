@@ -98,6 +98,10 @@ main{
     margin: 0 auto;
 }
 
+section{
+    margin: 130px;
+}
+
 
 /* About section Style */
 
@@ -134,11 +138,72 @@ margin-bottom: 30px;
 }
 
 .table{
-    font-size: 20px;
+    text-align: center;
+    font-size: 15px;
     color: #757575;
     /* justify-content: space-between; */
-    text-align: center;
+    
         vertical-align: middle;
     
 }
+.what-i-do-description{
 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+
+
+}
+.what-tittle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.what-i-do{
+
+    margin: 130px;
+}
+.icon-container{
+    display: flex;
+    gap: 100px;
+
+}
+
+.heading{
+    font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+.description{
+    font-weight: 40px;
+font-size: 15px;
+line-height: 25px;
+/* or 175% */
+
+
+/* Dark 03 */
+
+color: #757575;
+}
+.skill{
+    background: #ffffff;
+box-shadow: 30px 12px 30px rgba(20, 19, 19, 0.06);
+border-radius: 30px;
+padding: 10px;
+}
+
+.resume-tittle{
+    margin: 130px;
+    padding: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
