@@ -4,6 +4,15 @@
 
 }
 
+
+.head{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+}
+
+
 .text-primary {
     color: #fd6e0a;
 }
@@ -30,6 +39,7 @@
 .nav-tittle {
     font-weight: 800;
     font-size: 45px;
+    margin-top: 20px;
 }
 
 nav {
@@ -77,5 +87,58 @@ border-radius: 5px;
     color: #757575;
     font-size: 18;
 
+}
+
+
+/* Main */
+
+main{
+    max-width: 1140px;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+
+/* About section Style */
+
+.section-head{
+margin-top: 130px;
+text-align: center;
+
+background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+
+
+}
+
+.section-tittle{
+   
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+
+}
+
+.section-discreption{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+text-align: center;
+color: #757575;
+margin-bottom: 30px;
+
+}
+
+.table{
+    font-size: 20px;
+    color: #757575;
+    /* justify-content: space-between; */
+    text-align: center;
+        vertical-align: middle;
+    
 }
 
