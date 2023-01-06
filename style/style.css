@@ -317,3 +317,53 @@ color: #757575;
 .r-button{
     text-align: center;
 }
+
+
+.connect-info{
+    display: flex;
+    margin-top: 100px;
+    background: #FFF8F3;
+   padding: 100px 100px;
+    gap: 100px;
+    
+
+}
+
+.connect-head{
+    font-weight: 700;
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+.connect{
+
+    text-decoration: none;
+}
+
+[type='text'], [type='email'],textarea{
+   margin-bottom: 25px;
+   border: 0;
+   width: 200px;
+height: 60px;
+border-radius: 10px;
+padding: 10px 20px;
+}
+
+textarea{
+    height: 150px;
+}
+
+.connect-desc{
+
+    font-weight: 400;
+font-size: 13px;
+line-height: 28px;
+margin-bottom: 10px;
+/* or 175% */
+
+
+/* Dark 02 */
+
+color: #474747;
+
+}
