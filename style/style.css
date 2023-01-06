@@ -14,25 +14,48 @@
 
 
 .text-primary {
+
     color: #fd6e0a;
+    
 }
 
 .button-primary {
 
 
-    height: 36px;
-    border-radius: 5px;
+    height: 40px;
+    border-radius: 10px;
     background-color: #fd6e0a;
     color: #e8e6e4;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 0px; 
     border: 0;
-    padding: 18px 35px;
+    padding: 18px px;  
+     gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px; 
 
-    margin-top: 20px;
-    margin-bottom: 20px;
+       /* height: 50px;
+        border-radius: 10px;
+        background-color: #fd6e0a;
+        color: #f3f1ef;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px; 
+        padding: 18px px; */
 
+}
+
+.hire{
+        height: 30px;
+        border-radius: 10px;
+        background-color: #fd6e0a;
+        color: #f3f1ef;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 0px; 
+        padding: 1px 15px;
+        border: 0px;
 }
 
 /* Header and nav style */
@@ -142,6 +165,7 @@ margin-bottom: 30px;
     font-size: 15px;
     color: #757575;
     /* justify-content: space-between; */
+    display:inline-flexbox;
     
         vertical-align: middle;
     
@@ -305,12 +329,14 @@ color: #757575;
     background-color: #fd6e0a;
     color: #f3f1ef;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 0px; 
     padding: 18px px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border: 0;
+
+
 
 }
   
